@@ -28,8 +28,6 @@ echo $monkeyHa->handle("Meat"); // el perro maneja la soliciud
  //++++++++++++++++++
  $monkeyHa->setNext($squirrellHa)->setNext($dogHa);
 clientCode($monkeyHa);
-
-
 echo '<br>-------------------<br>';
 clientCode($squirrellHa);
 echo '<br>-------------------<br>';
