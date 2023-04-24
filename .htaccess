@@ -1,3 +1,4 @@
 Options +FollowSymLinks -MultiViews
 RewriteEngine on
 RewriteRule ^c/(.+)$ comportamiento/$1
+RewriteRule ^cr/(.+)$ creacionales/$1
