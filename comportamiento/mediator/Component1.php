@@ -1,8 +1,9 @@
 <?php 
 
 include_once 'BaseComponent.php';
-class Component1 extends BaseComponent{
+class Component1 {
     
+    use BaseComponent;
     
     public function doA(){
         echo "<br> El componente 1 realiza A";

@@ -1,7 +1,7 @@
 <?php
 include_once 'Mediator.php';
 //el componente base se encarga de almacenar el mediador en las instancias de los componentes
-class BaseComponent{
+trait BaseComponent{
 
     protected $mediator;
     

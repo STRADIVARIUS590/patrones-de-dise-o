@@ -19,7 +19,7 @@ $component1->doA();
 
 
 
-
+ $component2->doD();
 
 
 

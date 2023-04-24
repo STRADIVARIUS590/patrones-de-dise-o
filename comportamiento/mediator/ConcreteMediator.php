@@ -20,14 +20,16 @@ class ConcreteMediator implements Mediator{
 
     public function notify(object $sender, string $event):void{
         if($event == 'A'){
-            echo "<br> El mediador reacciona en A y detona más operaciones";
+            echo "<br> El mediador reacciona a A y detona más operaciones:";
             $this->componentB->doC();
+            echo '<br>><><><><><><><';
         }
-
+        
         if($event == 'D'){
-            echo "<br> El madiador reacciona en D y detona más operaciones";
+            echo "<br> El mediador reacciona a D y detona más operaciones";
             $this->componentA->doB();
             $this->componentB->doC();
+            echo '<br>><><><><><><><';
         } 
 
 
